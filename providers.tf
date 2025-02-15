@@ -5,7 +5,7 @@ terraform {
         version = "~> 4.14.0"
     }
   }
-  required_version = "~> 1.1.9"
+  required_version = "1.10.5"
 
   backend "azurerm" {
     resource_group_name  = "tfremotebackend"
